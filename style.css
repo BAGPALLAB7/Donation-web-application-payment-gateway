@@ -192,3 +192,25 @@ header{
         height: 70%;
     }
 }
+@media(max-width: 425px)
+{
+    .content{
+        height: 75%;
+    }
+    .content h1 {
+        
+        font-size: 25px;
+    }
+    .content img {
+        
+        width: 40%;
+        height: 100px;
+    }
+    .content h2 {
+        font-size: 15px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+
+}
