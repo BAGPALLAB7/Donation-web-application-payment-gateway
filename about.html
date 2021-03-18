@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <script src="https://kit.fontawesome.com/9039e981db.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <!-- font-family: 'Noto Sans', sans-serif; -->
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,7 +27,69 @@
             <a href="#" class="iconbar" onclick="responsive_menu()"><i class="fas fa-bars"></i></a>
         </div>
     </header>
+
+    <div class="about-wrapper">
+    </br></br></br>
+    <div>
+        <h3>ABOUT ME</h3>
+        <div class="about-hr"></div>
+    </div>
+    <div class="about-content">			
+        <div class="myImage">
+            <img src="images/bagpallab7-copy.png" alt="myImage" class="MyImage">	
+        </div>
+        <div class="about-text1">
+            
+            <h6><strong>HI, My name is Pallab</strong></h6><br>
+            <h6>My Portfolio <a href="https://pallabbag.me/" target="_blank">click here. </a></h6>
+            <br>
+            <h6>I’m from Hooghly. 
+            <br>
+            <h6>Currently I’m pursuing B.Tech in computer science and engineering from government college of engineering and leather technology. I have done my 10th and 12th from Dasghara High School. </h6>
+            <br>
+            <h6>Some of my friends consider me as a good team worker and as a good stress handler. </h6>
+                
+            <br>
+            <h6>Need something or simply want to have a chat? Reach out to me on social media or send me an <a href="contact.html" style="color: #ecb53d">email</a>.</h6><br>
+
+            <h4><a href="https://www.linkedin.com/in/bagpallab7/" style="color: #3797f1" target="_blank"><i class="fa fa-linkedin faa"></i></a>
+
+            <a href="https://github.com/BAGPALLAB7" target="_blank" style="color: #161425"><i class="fa fa-github faa"></i></a>
+
+            <a href="https://www.instagram.com/bagpallab7/" style="color: #ec144a" target="_blank"><i class="fa fa-instagram faa"></i></a>
+
+            <a href="https://www.facebook.com/people/%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%AC-%E0%A6%AC%E0%A6%BE%E0%A6%97/100009292927479" style="color: #0f5ccf" target="_blank"><i class="fa fa-facebook faa"></i></a>
+            </h4>				
+        </div>
+        <div class="about-text2">
+            <h2><strong>MY PERSONAL INTRESTS</strong></h2><br>
+            <h6>
+            When I am not coding my next project, I enjoy spending my time doing any of the following:
+            <br><br>
+            <ul>
+                <li>I love socializing with my friends.</li>
+                <li>I like to travel and explore new places.</li>
+                <li>I love Drawing</li>
+                <li>I like to write <a href="https://trust-hundred.blogspot.com/" style="color: #220de6" target="_blank">blogs</a></li>
+                <li>And I'm fond of playing video games.</li>
+
+            </ul>
+            </h6>
+        </div>
+    </div>
     
 </body>
+<script src="vanilla-tilt.js"></script>
 <script src="main.js"></script>
+<!--Tilt container-->
+<script>
+    VanillaTilt.init(document.querySelector(".MyImage"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 0.5,
+	});
+</script>
+
+
 </html>

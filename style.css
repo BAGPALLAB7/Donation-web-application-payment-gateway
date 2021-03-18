@@ -118,7 +118,7 @@ header{
     background: white;
     background-color: rgba(255,255,255,0.1);
     backdrop-filter: blur(0.5rem);
-    border-radius: 15px;
+    border-radius: 25px;
 }
 .content h1{
     width: 80%;
@@ -214,3 +214,235 @@ header{
     }
 
 }
+
+
+
+
+
+/* About page responsive design*/
+
+.about-wrapper{
+    color: white;
+    margin: 1rem auto;
+  width: 90%;
+   
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(0.3rem);
+  border-radius: 25px;
+  border-right: whitesmoke 2px solid;
+  border-bottom: whitesmoke 1px solid; 
+  
+
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}
+h6{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+.about-wrapper h3{
+    color: white;
+	text-align: center;
+	padding-bottom: 10px;	
+}
+
+.about-hr{
+	border-bottom: 2px solid #fc8b22;
+	width: 100%;
+	
+}
+
+
+.about-text1{
+    width: 50%;
+    margin: 0 50px;
+}
+.about-text2{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.myImage{
+    width: 20%;
+    height: auto;
+}
+.myImage img{
+    width: 100%;
+}
+.fa{	
+	padding-right: 10px;
+	font-size: 2rem;
+	margin-bottom: 1em;
+	margin-left: 10px;
+}
+
+.fa:hover{
+	opacity: 0.7;
+}
+@media(max-width: 425px)
+{
+    .about-content{
+        flex-direction: column;
+    }
+    .about-text1{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .about-text2{
+        width: 80%;
+        margin: 1rem auto;
+        
+    }
+    
+    .myImage{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .myImage img{
+        width: 50%;
+        
+    }
+    .fa{	
+        padding-right: 10px;
+        font-size: 2rem;
+        margin-bottom: 1em;
+        margin-left: 10px;
+    }
+    .about-content{
+        height: auto;
+    }
+
+
+}
+
+
+
+
+/* Contact page responsive design */
+.contact{
+    margin: 1rem auto;
+    width: 80%;
+    background: white;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(0.3rem);
+    border-radius: 25px;
+    border-right: whitesmoke 2px solid;
+    border-bottom: whitesmoke 1px solid;
+  }
+  .cert-contact-separater{
+      background-color:#F3F0EF ;
+      height: 3em;
+  }
+  
+  .contact-hr{
+      border-bottom: 2px solid #FCFC01 ;
+      width: 100%;
+      
+  }
+  
+  .contact-wrapper{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      /* background-color: #413F3F; */
+  }
+  .contact-wrapper h3{
+      color: white;
+  }
+  
+  .contact-mail{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+  .input-container {
+    
+    display: -ms-flexbox; 
+    display: flex;
+    justify-content: center;
+      align-items: center;
+    width: 75%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: #71715A;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 75%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid #C2C27D ;
+  }
+  
+  /* Set a style for the submit button */
+  .submit{
+    color: rgb(90, 82, 82);
+    cursor: pointer;
+    width: 25%;
+  
+    
+    height: 40px;
+  }
+  
+  .submit:hover {
+  color: black;
+  }
+  .formm{
+      background-color: coral;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .find{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .find h3{
+      color: white;
+  }
+  .find-hr{
+      border-bottom: 2px solid red ;
+      width: 100%;
+      
+  }
+  .map{
+      text-align: center;
+      width: 100%;
+  }
+  .map iframe{
+      border: 2px solid black;
+  }
+  
+  
+  @media(max-width: 425px)
+  {
+      .find iframe{
+          height: 15rem;
+      }
+  }
